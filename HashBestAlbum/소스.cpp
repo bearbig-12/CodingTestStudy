@@ -2,7 +2,6 @@
 #include <algorithm>
 #include <unordered_map>
 #include <vector>
-#include <map>
 using namespace std;
 
 bool comp(const pair<string , pair<int, int>>& a, const pair<string, pair<int, int>>& b)
@@ -49,7 +48,6 @@ vector<int> solution(vector<string> genres, vector<int> plays)
     }
 
     vector<pair<string, int>> temp;
-    vector<pair<string , pair<int, int>>> temp2;
 
     for (auto s : total_play)
     {
@@ -75,13 +73,7 @@ vector<int> solution(vector<string> genres, vector<int> plays)
         }
         cnt = 0;
     }
-
-
-
     return answer;
-
-
-
 }
 
 int main()
