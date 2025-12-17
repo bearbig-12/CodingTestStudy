@@ -6,25 +6,23 @@ using namespace std;
 void dfs(int n, vector<vector<int>> computes, vector<bool>& visited)
 {
     stack<int> s;
-
 	s.push(n);
-
 	visited[n] = true;
 
-    while (!s.empty())
+
+    while(s.empty() == false)
     {
-        int curr = s.top();
+		int curr = s.top();
         s.pop();
         for (int i = 0; i < computes.size(); ++i)
         {
-            if (computes[curr][i] == 1 && visited[i] == false)
+            if (computes[curr][i] == 1 && visited[i] != true)
             {
                 s.push(i);
-				visited[i] = true;  
+				visited[i] = true;
             }
         }
 	}
-
 
 }
 
