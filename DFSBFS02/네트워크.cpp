@@ -1,73 +1,53 @@
 #include <string>
 #include <vector>
 #include <stack>
+
 using namespace std;
 
-void dfs(int n, vector<vector<int>> computes, vector<bool>& visited)
+void DFS(int n, vector<vector<int>> computers, vector<bool>& visited)
 {
-    stack<int> s;
+	stack<int> s;
 	s.push(n);
 	visited[n] = true;
 
 
-    while(s.empty() == false)
-    {
+	while (!s.empty())
+	{
 		int curr = s.top();
-        s.pop();
-        for (int i = 0; i < computes.size(); ++i)
-        {
-            if (computes[curr][i] == 1 && visited[i] != true)
-            {
-                s.push(i);
+		s.pop();
+
+		for (int i = 0; i < computers.size(); ++i)
+		{
+			if (computers[curr][i] == 1 && !visited[i])
+			{
+				s.push(i);
 				visited[i] = true;
-            }
-        }
+			}
+		}
 	}
 
 }
 
-void dfs(int n, vector<vector<int>> computes, vector<bool>& visited)
+
+int solution(int n, vector<vector<int>> computers) 
 {
-    visited[n] = true;
-    for (int i = 0; i < computes.size(); ++i)
-    {
-        if (computes[n][i] == 1 && visited[i] == false)
-        {
-            dfs(i, computes, visited);
+	int answer = 0;
+	vector<bool> visited(n, false);
+
+	for (int i = 0; i < n; ++i)
+	{
+		if (!visited[i])
+		{
+			DFS(i, computers, visited);
+			answer++;
 		}
-    }
+	}
 
-}
-
-
-
-int solution(int n, vector<vector<int>> computers) {
-    int answer = 0;
-    vector<bool> visited(201, false);
-
-
-    for (int i = 0; i < n; i++)
-    {
-        if (!visited[i])
-        {
-            dfs(i, computers, visited);
-            answer++;
-        }
-    }
-
-    return answer;
+	return answer;
 }
 
 
 int main()
 {
-        int n = 3;
-    vector<vector<int>> computers = {
-        {1, 1, 0},
-        {1, 1, 0},
-        {0, 0, 1}
-    };
-    int result = solution(n, computers);
-    return 0;
 
 }
