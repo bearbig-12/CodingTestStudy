@@ -34,56 +34,43 @@
 #include<string>
 #include<algorithm>
 #include<vector>
+#include<set>
 using namespace std;
 
 int ans;
 string str;
-
+set<pair<int, string>> vis;
 int DFS(int index, int change_count)
 {
+	if (vis.count({ index, str }))
+	{
+		return ans;
+	}
+	vis.insert({ index, str });
+
 	if (index == change_count)
 	{
 		ans = max(ans, stoi(str));
 		return ans;
 	}
 
-	for(int i = 0; i < str.length() - 1; i++)
+	for (int i = 0; i < str.length()-1; ++i)
 	{
-		for (int j = i + 1; j < str.length(); j++)
+		for (int j = i + 1; j < str.length(); ++j)
 		{
 			swap(str[i], str[j]);
 			DFS(index + 1, change_count);
 			swap(str[i], str[j]);
 		}
 	}
+
+	return ans;
 }
 
 vector<int> num{ 1,2,3 };
 vector<int> v(3, 0);
 vector<bool> visited(3, false);
 
-int permutation()
-{
-	if (v.size() == 3)
-	{
-		for (auto k : v)
-			cout << k << " ";
-		return;
-	}
-
-	for (int i = 0; i < num.size(); ++i)
-	{
-		if (!visited[i])
-		{
-			visited[i] = true;
-			v.push_back(num[i]);
-			permutation();
-			v.pop_back();
-			visited[i] = false;
-		}
-	
-	}
-}
 
 int main(int argc, char** argv)
 {
@@ -100,8 +87,14 @@ int main(int argc, char** argv)
 
 	for (test_case = 1; test_case <= T; ++test_case)
 	{
+		ans = 0;
 		cin >> str >> change_count;
+		if (change_count > str.size())
+		{
+			change_count = str.size();
+		}
 
+		vis.clear();
 		DFS(0, change_count);
 
 		cout << "#" << test_case << " " << ans << "\n";
