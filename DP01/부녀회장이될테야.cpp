@@ -4,34 +4,44 @@ using namespace std;
 
 int main()
 {
-	int DP[15][15] = { 0 };
-	int n;
-	cin >> n;
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
 
-	// 0Ãþ
-	for (int i = 1; i <= 14; ++i)
+
+	int DP[15][15]{0};
+
+	for (int i = 0; i < 15; ++i)
 	{
 		DP[0][i] = i;
 	}
 
-	// 1È£´Â Ç×»ó 1¸í
-	for (int i = 0; i <= 14; ++i)
+	int test;
+	cin >> test;
+	for (int i = 0; i < test; ++i)
 	{
-		DP[i][1] = 1;
-	}
+		//Ãþ
+		int k;
+		int n;
 
-	for (int i = 1; i <= 14; ++i)
-	{
-		for (int j = 2; j <= 14; ++j)
-		{
-			DP[i][j] = DP[i][j - 1] + DP[i - 1][j];
-		}
-	}
 
-	while (n--) {
-		int k, n;
+
 		cin >> k >> n;
-		cout << DP[k][n] << "\n";
-	}
+		
+		for (int j = 1; j <= k; ++j)
+		{
+			for (int s = 1; s <= n; ++s)
+			{
 
+				// Á¡È­½Ä = aÃþÀÇ bÈ£´Â aÃþ b-1È£ + a-1Ãþ b-1È£
+				DP[j][s] = DP[j - 1][s] + DP[j][s - 1];
+			}
+		}
+
+
+		cout << DP[k][n] << '\n';
+
+
+
+	}
 }
