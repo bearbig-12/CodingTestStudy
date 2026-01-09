@@ -3,8 +3,12 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="BJ구간의합구하기02/BJ구간의합구하기02.vcxproj" Id="11d8b99c-35ef-484e-9a1c-815fd20829de" />
+  <Project Path="BJ구간의합구하기03/BJ구간의합구하기03.vcxproj" Id="1b6a3834-6d90-48eb-9ca7-efc690aa132e" />
+  <Project Path="BJ구간합구하기01/BJ구간합구하기01.vcxproj" Id="368d521b-1693-469d-89e1-acfaf8f876f5" />
   <Project Path="BJ그룹단어체커/BJ그룹단어체커.vcxproj" Id="9e984a77-d863-4f0c-9ae8-48cf88109a8a" />
   <Project Path="BJ너의평점은/BJ너의평점은.vcxproj" Id="6c06d7cf-ef89-47da-8a1c-35b24ac7c993" />
+  <Project Path="BJ색종이/BJ색종이.vcxproj" Id="4f4d29cd-7555-4504-8d79-271cb11f1205" />
   <Project Path="BJ세로읽기/BJ세로읽기.vcxproj" Id="46b3513e-ccbc-4364-84fa-3a42f74a66aa" />
   <Project Path="BJ최대값/BJ최대값.vcxproj" Id="cec36736-0fc1-4206-bf0f-6d4445ab4e3a" />
 </Solution>
