@@ -17,4 +17,5 @@
   <Project Path="BJ주몽/BJ주몽.vcxproj" Id="7a2e6496-6349-4b93-bd81-2d6f18c22654" />
   <Project Path="BJ최대값/BJ최대값.vcxproj" Id="cec36736-0fc1-4206-bf0f-6d4445ab4e3a" />
   <Project Path="BJ최솟값찾기/BJ최솟값찾기.vcxproj" Id="e58052f3-6bff-496f-bd08-20d43d0d666b" />
+  <Project Path="BJ카드2/BJ카드2.vcxproj" Id="fe1c5219-4d54-40a4-97ca-8729501a019e" />
 </Solution>
