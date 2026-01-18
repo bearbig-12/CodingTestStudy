@@ -13,6 +13,7 @@
   <Project Path="BJ세로읽기/BJ세로읽기.vcxproj" Id="46b3513e-ccbc-4364-84fa-3a42f74a66aa" />
   <Project Path="BJ스택수열/BJ스택수열.vcxproj" Id="c3285848-2bbb-4562-8268-68461b3dcbf0" />
   <Project Path="BJ연속된자연수합구하기/BJ연속된자연수합구하기.vcxproj" Id="d73dc6f5-f5bd-4819-8da8-c537f19109b4" />
+  <Project Path="BJ절댓값힙/BJ절댓값힙.vcxproj" Id="afc3d542-6d17-487f-99b3-c5a17994798a" />
   <Project Path="BJ좋다/BJ좋다.vcxproj" Id="80fbca6e-70d1-41ed-9886-974e7a10a30a" />
   <Project Path="BJ주몽/BJ주몽.vcxproj" Id="7a2e6496-6349-4b93-bd81-2d6f18c22654" />
   <Project Path="BJ최대값/BJ최대값.vcxproj" Id="cec36736-0fc1-4206-bf0f-6d4445ab4e3a" />
