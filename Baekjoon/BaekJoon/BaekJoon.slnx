@@ -11,6 +11,8 @@
   <Project Path="BJ너의평점은/BJ너의평점은.vcxproj" Id="6c06d7cf-ef89-47da-8a1c-35b24ac7c993" />
   <Project Path="BJ색종이/BJ색종이.vcxproj" Id="4f4d29cd-7555-4504-8d79-271cb11f1205" />
   <Project Path="BJ세로읽기/BJ세로읽기.vcxproj" Id="46b3513e-ccbc-4364-84fa-3a42f74a66aa" />
+  <Project Path="BJ소트인사이드/BJ소트인사이드.vcxproj" Id="f928d275-6e97-4486-9f94-703b55f4202f" />
+  <Project Path="BJ수정렬하기/BJ수정렬하기.vcxproj" Id="4e5a3cac-b0b5-474d-a062-f9b6847bb07e" />
   <Project Path="BJ스택수열/BJ스택수열.vcxproj" Id="c3285848-2bbb-4562-8268-68461b3dcbf0" />
   <Project Path="BJ연속된자연수합구하기/BJ연속된자연수합구하기.vcxproj" Id="d73dc6f5-f5bd-4819-8da8-c537f19109b4" />
   <Project Path="BJ절댓값힙/BJ절댓값힙.vcxproj" Id="afc3d542-6d17-487f-99b3-c5a17994798a" />

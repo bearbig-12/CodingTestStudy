@@ -41,7 +41,7 @@ int main()
 					{
 						count++;
 					}
-				}
+				} 
 
 			}
 			if (count == alpha[i].length())
