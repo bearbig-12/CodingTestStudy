@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="BJATM/BJATM.vcxproj" Id="beaf25c5-6e78-4c0c-84bf-336526ac15bf" />
   <Project Path="BJDNA비밀번호/BJDNA비밀번호.vcxproj" Id="70c71dff-fcf7-4a54-82ff-6e2e85037fad" />
   <Project Path="BJ구간의합구하기02/BJ구간의합구하기02.vcxproj" Id="11d8b99c-35ef-484e-9a1c-815fd20829de" />
   <Project Path="BJ구간의합구하기03/BJ구간의합구하기03.vcxproj" Id="1b6a3834-6d90-48eb-9ca7-efc690aa132e" />
@@ -14,6 +15,8 @@
   <Project Path="BJ소트인사이드/BJ소트인사이드.vcxproj" Id="f928d275-6e97-4486-9f94-703b55f4202f" />
   <Project Path="BJ수정렬하기/BJ수정렬하기.vcxproj" Id="4e5a3cac-b0b5-474d-a062-f9b6847bb07e" />
   <Project Path="BJ스택수열/BJ스택수열.vcxproj" Id="c3285848-2bbb-4562-8268-68461b3dcbf0" />
+  <Project Path="BJ신기한소수/BJ신기한소수.vcxproj" Id="c217c74f-77d1-4f75-a072-4acbe1a7f15d" />
+  <Project Path="BJ연결요소의개수/BJ연결요소의개수.vcxproj" Id="e655042b-d5d5-4146-a485-eab4231d19af" />
   <Project Path="BJ연속된자연수합구하기/BJ연속된자연수합구하기.vcxproj" Id="d73dc6f5-f5bd-4819-8da8-c537f19109b4" />
   <Project Path="BJ절댓값힙/BJ절댓값힙.vcxproj" Id="afc3d542-6d17-487f-99b3-c5a17994798a" />
   <Project Path="BJ좋다/BJ좋다.vcxproj" Id="80fbca6e-70d1-41ed-9886-974e7a10a30a" />
