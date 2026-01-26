@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="BJATM/BJATM.vcxproj" Id="beaf25c5-6e78-4c0c-84bf-336526ac15bf" />
+  <Project Path="BJDFS와BFS/BJDFS와BFS.vcxproj" Id="e3f1dc46-a52b-4506-9eaa-aafcc5cec240" />
   <Project Path="BJDNA비밀번호/BJDNA비밀번호.vcxproj" Id="70c71dff-fcf7-4a54-82ff-6e2e85037fad" />
   <Project Path="BJ구간의합구하기02/BJ구간의합구하기02.vcxproj" Id="11d8b99c-35ef-484e-9a1c-815fd20829de" />
   <Project Path="BJ구간의합구하기03/BJ구간의합구하기03.vcxproj" Id="1b6a3834-6d90-48eb-9ca7-efc690aa132e" />
@@ -23,5 +24,6 @@
   <Project Path="BJ주몽/BJ주몽.vcxproj" Id="7a2e6496-6349-4b93-bd81-2d6f18c22654" />
   <Project Path="BJ최대값/BJ최대값.vcxproj" Id="cec36736-0fc1-4206-bf0f-6d4445ab4e3a" />
   <Project Path="BJ최솟값찾기/BJ최솟값찾기.vcxproj" Id="e58052f3-6bff-496f-bd08-20d43d0d666b" />
+  <Project Path="BJ친구관계파악하기/BJ친구관계파악하기.vcxproj" Id="2f6b74f9-d38d-4ea0-aa6d-871bd8686ae1" />
   <Project Path="BJ카드2/BJ카드2.vcxproj" Id="fe1c5219-4d54-40a4-97ca-8729501a019e" />
 </Solution>
