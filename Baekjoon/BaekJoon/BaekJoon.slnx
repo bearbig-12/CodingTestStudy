@@ -11,6 +11,7 @@
   <Project Path="BJ구간합구하기01/BJ구간합구하기01.vcxproj" Id="368d521b-1693-469d-89e1-acfaf8f876f5" />
   <Project Path="BJ그룹단어체커/BJ그룹단어체커.vcxproj" Id="9e984a77-d863-4f0c-9ae8-48cf88109a8a" />
   <Project Path="BJ너의평점은/BJ너의평점은.vcxproj" Id="6c06d7cf-ef89-47da-8a1c-35b24ac7c993" />
+  <Project Path="BJ미로탐색/BJ미로탐색.vcxproj" Id="79d85595-5543-4801-b8f1-fc06fbdceb5d" />
   <Project Path="BJ색종이/BJ색종이.vcxproj" Id="4f4d29cd-7555-4504-8d79-271cb11f1205" />
   <Project Path="BJ세로읽기/BJ세로읽기.vcxproj" Id="46b3513e-ccbc-4364-84fa-3a42f74a66aa" />
   <Project Path="BJ소트인사이드/BJ소트인사이드.vcxproj" Id="f928d275-6e97-4486-9f94-703b55f4202f" />
@@ -26,4 +27,5 @@
   <Project Path="BJ최솟값찾기/BJ최솟값찾기.vcxproj" Id="e58052f3-6bff-496f-bd08-20d43d0d666b" />
   <Project Path="BJ친구관계파악하기/BJ친구관계파악하기.vcxproj" Id="2f6b74f9-d38d-4ea0-aa6d-871bd8686ae1" />
   <Project Path="BJ카드2/BJ카드2.vcxproj" Id="fe1c5219-4d54-40a4-97ca-8729501a019e" />
+  <Project Path="BJ트리의지름/BJ트리의지름.vcxproj" Id="30a128f1-8920-4147-9c02-4b06a20dfe2d" />
 </Solution>
